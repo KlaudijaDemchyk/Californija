@@ -1,0 +1,367 @@
+@import url(bootstrap.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;600;700&family=Readex+Pro:wght@200;300;400;600;700&display=swap");
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+.container {
+  max-width: 1440px; }
+
+.bg-body-tertiary {
+  background-color: white;
+  --bs-bg-opacity: 0; }
+
+.navbar-brand {
+  padding-top: 0; }
+
+.nav-item, .dropdown-item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000; }
+
+.header_search {
+  display: flex;
+  justify-content: flex-end; }
+  .header_search .header_search_img {
+    margin-right: 27px; }
+  @media screen and (max-width: 768px) {
+    .header_search {
+      display: none; } }
+
+.explore_btn {
+  display: inline-block;
+  padding: 14px 53px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  border: 1px solid #000000;
+  display: inline-block;
+  border-radius: 200px;
+  transition: 0.3s all ease;
+  text-decoration: none; }
+
+.explore_btn:hover {
+  color: #ffffff;
+  background: #000; }
+
+.banner .container {
+  max-height: 550px;
+  position: relative;
+  margin-top: 28px;
+  margin-bottom: 28px; }
+
+.carousel-indicators [data-bs-target] {
+  width: 194px; }
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5%; }
+
+.carousel-item img {
+  max-width: 100%; }
+
+.carousel-caption {
+  text-align: left;
+  position: absolute;
+  top: 94px;
+  left: 120px; }
+  .carousel-caption h5 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #000000;
+    width: 588px; }
+  .carousel-caption p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    width: 565px; }
+  @media screen and (max-width: 1162px) {
+    .carousel-caption h5 {
+      font-size: 32px;
+      width: 350px; }
+    .carousel-caption p {
+      font-size: 12px;
+      width: 280px; } }
+  @media screen and (max-width: 930px) {
+    .carousel-caption img {
+      width: 50%;
+      opacity: 0.5;
+      filter: alpha(opacity=50); } }
+  @media screen and (max-width: 554px) {
+    .carousel-caption img {
+      width: 25%;
+      opacity: 0.5;
+      filter: alpha(opacity=50); } }
+
+.section-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .section-info h1 {
+    font-family: "Readex Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    color: #000000;
+    margin-bottom: 10px; }
+  .section-info p {
+    width: 630px;
+    margin-bottom: 55px;
+    font-family: "Readex Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-align: center; }
+  @media screen and (max-width: 601px) {
+    .section-info p {
+      width: 300px; } }
+
+.offer {
+  padding-top: 47px; }
+
+.offer-items {
+  margin-bottom: 72px; }
+
+.offer-items-image {
+  background: url("../image/mackbook.png");
+  background-repeat: no-repeat;
+  background-position: 45px 0;
+  text-align: right;
+  padding: 376px 42px 0 405px;
+  margin-bottom: 70px;
+  max-width: 640px;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  transition: 0.3s all ease; }
+
+.offer-items-image:hover {
+  box-shadow: 0px 4px 35px black; }
+
+.offer_left_item_block_laptop_info_category {
+  margin-bottom: 5px; }
+  .offer_left_item_block_laptop_info_category a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 10px; }
+  .offer_left_item_block_laptop_info_category h4 {
+    font-family: "Readex Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000; }
+
+.offer-items-image2 {
+  background: url("../image/watch.png");
+  background-repeat: no-repeat;
+  background-position: 45px 0;
+  text-align: right;
+  padding: 87px 42px 87px 470px;
+  background-size: 395px;
+  max-width: 640px;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  transition: 0.3s all ease; }
+
+.offer_left_item_block_laptop_info_category2 a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 10px; }
+.offer_left_item_block_laptop_info_category2 h4 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000; }
+
+.offer-items-image2:hover {
+  box-shadow: 0px 4px 35px black; }
+
+.offer-items-image3 {
+  padding: 552px 31px 145px 31px;
+  max-width: 312px;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+  background-image: url(../image/phone.png);
+  background-repeat: no-repeat;
+  background-position: 15px 105px;
+  border-radius: 32px;
+  transition: 0.3s all ease;
+  max-height: 100%;
+  text-align: center; }
+
+.offer_left_item_block_laptop_info_category3 a {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 10px; }
+.offer_left_item_block_laptop_info_category3 h4 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000; }
+
+.offer-items-image3:hover {
+  box-shadow: 0px 4px 35px black; }
+
+.offer-items-image4 {
+  padding: 144px 31px 582px 31px;
+  max-width: 312px;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+  background-image: url("../image/tablet.png");
+  background-repeat: no-repeat;
+  background-position: 0 285px;
+  border-radius: 32px;
+  text-align: center;
+  transition: 0.3s all ease;
+  max-height: 100%; }
+
+.offer_left_item_block_laptop_info_category4 a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 10px; }
+.offer_left_item_block_laptop_info_category4 h4 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000; }
+
+.offer-items-image4:hover {
+  box-shadow: 0px 4px 35px black; }
+
+.product {
+  padding: 79px; }
+
+.product_items_block {
+  max-width: 303px;
+  max-height: 100%;
+  border-radius: 32px;
+  padding: 22px;
+  transition: 0.3s all ease; }
+
+.product_items_block:hover {
+  box-shadow: 0px 4px 35px black; }
+
+.product_items_block .product_items_block_img img {
+  border-radius: 28px;
+  max-width: 100%; }
+
+.product_items_block .product_items_block_title {
+  margin-bottom: 10px; }
+
+.product_items_block .product_items_block_title a {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: none; }
+
+.product_items_block .product_items_block_subtitle {
+  margin-bottom: 25px; }
+
+.product_items_block .product_items_block_subtitle a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4B4B4B;
+  text-decoration: none; }
+
+.product_items_block .product_items_block_price a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  text-decoration: none; }
+
+.best_items_block {
+  margin-right: 30px;
+  border-radius: 16px;
+  background: #F8F9FA;
+  padding: 40px 80px 280px 80px;
+  max-width: 410px;
+  text-align: center;
+  background-image: url("../image/best_block_watch.png");
+  background-repeat: no-repeat;
+  background-size: 260px 200px;
+  background-position: 40px 245px;
+  transition: 0.3s all ease; }
+
+.best_items_block:hover {
+  box-shadow: 0px 4px 35px black; }
+
+.best_items_block:nth-child(2) {
+  background-image: url("../image/best_block_phone_mack.png"); }
+
+.best_items_block:nth-child(3) {
+  margin-right: 0;
+  background-image: url("../image/best_block_phone_and.png"); }
+
+.best_items_block .best_items_block_subtitle {
+  margin-bottom: 5px; }
+
+.best_items_block .best_items_block_subtitle p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000; }
+
+.best_items_block .best_items_block_title {
+  margin-bottom: 30px; }
+
+.best_items_block .best_items_block_title h4 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #000000; }
+
+/*# sourceMappingURL=style.css.map */
