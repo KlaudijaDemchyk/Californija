@@ -485,7 +485,6 @@ color: #000000;
 .search_btn {
   display: inline-block;
   padding: 12px 22px;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -503,3 +502,101 @@ color: #000000;
   color: #ffffff;
   background: #000;
 }
+.email{
+padding-bottom: 19px;
+  .container{
+    max-width: 935px;
+    background: #DCE5E2;
+    border-radius: 16px;
+    padding-top: 47px;
+
+
+  }
+}
+.email  .form-control{
+  max-width: 285px;
+  max-height: 50px;
+  margin-top: 14px;
+  border-top-left-radius: 75px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 75px;
+  border-bottom-right-radius: 0px;
+  border:  0.1rem solid black;
+  padding-top: 21px;
+  padding-left: 50px;
+  padding-bottom: 22px;
+  background: transparent;
+}
+ .btn-primary{
+   margin-top: 14px;
+   max-width: 115px;
+   max-height: 50px;
+   border-color: black;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 75px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 75px;
+   background-color: #1a1d20;
+   transition: 0.3s all linear;
+}
+ .btn-primary:hover{
+   background-color: white;
+   border-color: black;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+   color: black;
+   display: inline-block;
+ }
+ .footer {
+   background: #F8F9FA;
+   padding: 55px 0 75px 0;
+ @media screen  and (max-width: 886px) {
+   .arcodion{
+     display: flex;
+   }
+ }
+ }
+footer .footer_top {
+
+}
+footer .footer_top .footer_top_logo img {
+  margin-bottom: 18px;
+}
+footer .footer_top .footer_top_logo .footer_top_info {
+  text-transform: capitalize;
+  max-width: 305px;
+}
+footer .footer_top .footer_top_logo .footer_top_info p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.footer_top_menu_title h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+}
+.footer_top_menu_title  ul li {
+  margin-bottom: 15px;
+
+  list-style-type: none;
+}
+.footer_top_menu_title  ul li a {
+   font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+ text-decoration: none;padding: 0;
+  text-align: left;
+}
+ .arcodion{
+   display: none;
+ }
