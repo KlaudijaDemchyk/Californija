@@ -49,6 +49,11 @@ body {
   border-radius: 200px;
   transition: 0.3s all ease;
   text-decoration: none; }
+  @media screen and (max-width: 566px) {
+    .explore_btn {
+      padding: 1px 23px;
+      font-size: 10px;
+      margin: 0; } }
 
 .explore_btn:hover {
   color: #ffffff;
@@ -114,7 +119,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  .section-info h1 {
+  .section-info h2 {
     font-family: "Readex Pro";
     font-style: normal;
     font-weight: 400;
@@ -122,6 +127,9 @@ body {
     line-height: 52px;
     color: #000000;
     margin-bottom: 10px; }
+    @media screen and (max-width: 554px) {
+      .section-info h2 {
+        font-size: 32px; } }
   .section-info p {
     width: 630px;
     margin-bottom: 55px;
@@ -249,7 +257,6 @@ body {
   max-height: 100%; }
 
 .offer_left_item_block_laptop_info_category4 a {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -258,7 +265,6 @@ body {
   text-decoration: none;
   margin-bottom: 10px; }
 .offer_left_item_block_laptop_info_category4 h4 {
-  font-family: "Readex Pro";
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -290,7 +296,6 @@ body {
   margin-bottom: 10px; }
 
 .product_items_block .product_items_block_title a {
-  font-family: "Readex Pro";
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -302,7 +307,6 @@ body {
   margin-bottom: 25px; }
 
 .product_items_block .product_items_block_subtitle a {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -311,7 +315,6 @@ body {
   text-decoration: none; }
 
 .product_items_block .product_items_block_price a {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -371,7 +374,6 @@ body {
   margin-bottom: 5px; }
 
 .best_items_block .best_items_block_subtitle p {
-  font-family: "Readex Pro";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -382,7 +384,6 @@ body {
   margin-bottom: 30px; }
 
 .best_items_block .best_items_block_title h4 {
-  font-family: "Readex Pro";
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -398,7 +399,6 @@ body {
 
 .ideas_text {
   padding-top: 10px;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -409,7 +409,6 @@ body {
 .ideas_item {
   padding-top: 53px; }
   .ideas_item .item_ideas {
-    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -454,6 +453,11 @@ body {
   transition: 0.3s all ease;
   text-decoration: none;
   margin: 0 7px 7px 0; }
+  @media screen and (max-width: 566px) {
+    .search_btn {
+      padding: 1px 23px;
+      font-size: 10px;
+      margin: 0; } }
 
 .search_btn:hover {
   color: #ffffff;
@@ -506,19 +510,14 @@ body {
 .footer {
   background: #F8F9FA;
   padding: 55px 0 75px 0; }
-  @media screen and (max-width: 886px) {
-    .footer .arcodion {
-      display: flex; } }
 
 footer .footer_top .footer_top_logo img {
   margin-bottom: 18px; }
 
 footer .footer_top .footer_top_logo .footer_top_info {
-  text-transform: capitalize;
-  max-width: 305px; }
+  text-transform: capitalize; }
 
 footer .footer_top .footer_top_logo .footer_top_info p {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -546,7 +545,16 @@ footer .footer_top .footer_top_logo .footer_top_info p {
   padding: 0;
   text-align: left; }
 
-.arcodion {
-  display: none; }
+.accordion-body ul {
+  list-style-type: none; }
+  .accordion-body ul a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    text-align: left; }
 
 /*# sourceMappingURL=style.css.map */
