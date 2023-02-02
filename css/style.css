@@ -557,4 +557,7 @@ footer .footer_top .footer_top_logo .footer_top_info p {
     padding: 10px;
     text-align: left; }
 
+.footer-bottom {
+  display: flex; }
+
 /*# sourceMappingURL=style.css.map */
