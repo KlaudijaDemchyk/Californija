@@ -5,16 +5,16 @@
 
 body {
   margin: 0;
-  padding: 0;
-  text-decoration: none; }
+  padding: 0; }
 
 .container {
-  max-width: 1440px; }
+  max-width: 1294px; }
 
 .bg-body-tertiary {
   background-color: white;
   --bs-bg-opacity: 0; }
 
+/*NavBar*/
 .navbar-brand {
   padding-top: 0; }
 
@@ -45,6 +45,7 @@ body {
   .header_search2 .header_search_img2 {
     margin-right: 27px; }
 
+/*Button*/
 .explore_btn {
   display: inline-block;
   padding: 14px 53px;
@@ -73,6 +74,7 @@ body {
   color: #ffffff;
   background: #000; }
 
+/*Banner Carousel*/
 .banner .container {
   max-height: 550px;
   position: relative;
@@ -137,7 +139,8 @@ body {
       font-size: 14px; } }
   @media screen and (max-width: 577px) {
     .carousel-caption {
-      padding-top: 40px; }
+      padding-top: 40px;
+      border-radius: 25px; }
       .carousel-caption h5 {
         font-size: 22px;
         line-height: 25px; } }
@@ -172,6 +175,7 @@ body {
         font-size: 10px;
         line-height: 10px; } }
 
+/*Section Info*/
 .section-info {
   text-align: center;
   display: flex;
@@ -204,6 +208,7 @@ body {
       width: 300px;
       margin-bottom: 20px; } }
 
+/*Offer*/
 .offer {
   padding-top: 47px; }
   @media screen and (max-width: 601px) {
@@ -345,6 +350,7 @@ body {
 .offer-items-image4:hover {
   box-shadow: 0px 4px 35px black; }
 
+/*Priduct*/
 .product {
   padding: 79px; }
   @media screen and (max-width: 601px) {
@@ -396,6 +402,7 @@ body {
   color: #000000;
   text-decoration: none; }
 
+/*Best Seller*/
 .best-seller {
   padding-bottom: 28px; }
 
@@ -464,6 +471,7 @@ body {
   line-height: 35px;
   color: #000000; }
 
+/*Ideas*/
 .ideas {
   padding-top: 47px;
   padding-bottom: 24px; }
@@ -495,6 +503,7 @@ body {
       padding-left: 7px;
       color: #151A1E; }
 
+/*search*/
 .search {
   padding-top: 51px;
   padding-bottom: 68px; }
@@ -537,6 +546,7 @@ body {
   color: #ffffff;
   background: #000; }
 
+/*Email*/
 .email {
   padding-bottom: 19px; }
   .email .container {
@@ -581,6 +591,7 @@ body {
   color: black;
   display: inline-block; }
 
+/*Footer*/
 .footer {
   background: #F8F9FA;
   padding: 55px 0 0 0; }
