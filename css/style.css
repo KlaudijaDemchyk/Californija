@@ -225,15 +225,14 @@ body {
   text-align: right;
   padding: 376px 42px 0 405px;
   margin-bottom: 70px;
-  max-width: 640px;
+  width: 100%;
   box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
   border-radius: 32px;
   transition: 0.3s all ease; }
   @media screen and (max-width: 601px) {
     .offer-items-image {
       background-position: 45px 0;
-      padding: 376px 42px 0 105px;
-      max-width: 380px; } }
+      padding: 376px 42px 0 105px; } }
 
 .offer-items-image:hover {
   box-shadow: 0px 4px 35px black; }
@@ -261,7 +260,7 @@ body {
   text-align: right;
   padding: 87px 42px 87px 470px;
   background-size: 395px;
-  max-width: 640px;
+  width: 100%;
   box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
   border-radius: 32px;
   transition: 0.3s all ease; }
@@ -269,8 +268,7 @@ body {
     .offer-items-image2 {
       background-position: 10px 0;
       padding: 17px 42px 47px 270px;
-      background-size: 250px;
-      max-width: 380px; } }
+      background-size: 250px; } }
 
 .offer_left_item_block_laptop_info_category2 a {
   font-style: normal;
@@ -292,7 +290,7 @@ body {
 
 .offer-items-image3 {
   padding: 552px 31px 145px 31px;
-  max-width: 312px;
+  width: 100%;
   box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
   background-image: url(../image/phone.png);
   background-repeat: no-repeat;
@@ -322,7 +320,7 @@ body {
 
 .offer-items-image4 {
   padding: 144px 31px 582px 31px;
-  max-width: 312px;
+  width: 100%;
   box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
   background-image: url("../image/tablet.png");
   background-repeat: no-repeat;
