@@ -232,7 +232,8 @@ body {
   @media screen and (max-width: 601px) {
     .offer-items-image {
       background-position: 45px 0;
-      padding: 376px 42px 0 105px; } }
+      padding: 376px 42px 0 105px;
+      max-width: 380px; } }
 
 .offer-items-image:hover {
   box-shadow: 0px 4px 35px black; }
@@ -268,7 +269,8 @@ body {
     .offer-items-image2 {
       background-position: 10px 0;
       padding: 17px 42px 47px 270px;
-      background-size: 250px; } }
+      background-size: 250px;
+      max-width: 380px; } }
 
 .offer_left_item_block_laptop_info_category2 a {
   font-style: normal;
